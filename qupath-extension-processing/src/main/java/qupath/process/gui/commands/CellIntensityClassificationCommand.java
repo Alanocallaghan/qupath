@@ -204,10 +204,10 @@ public class CellIntensityClassificationCommand implements Runnable {
 		chartPane.setPrefSize(200, 80);
 
 		// Add a log histogram checkbox below the histogram
-		pane.add(
-				TwoMeasurementClassificationCommand.TwoMeasurementPane.addLogHistogramCheckbox(
-						chartPane, histogramPanel
-				), pane.getColumnCount(), 0, 1, pane.getRowCount());
+		// pane.add(
+		// 		TwoMeasurementClassificationCommand.TwoMeasurementPane.addLogHistogramCheckbox(
+		// 				chartPane, histogramPanel
+		// 		), pane.getColumnCount(), 0, 1, pane.getRowCount());
 		
 		var dialog = new Dialog<ButtonType>();
 		dialog.initOwner(qupath.getStage());
